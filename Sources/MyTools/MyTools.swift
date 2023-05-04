@@ -1,3 +1,5 @@
+import Foundation
+
 public struct MyTools {
     public private(set) var text = "Hello, World!"
 
@@ -12,7 +14,7 @@ open class MathsSuitable {
         self.range = range
     }
 
-    public func facto(n: Int) -> Int {
+    @objc public func facto(n: Int) -> Int {
         if n == 0 {
             return 1
         }
